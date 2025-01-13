@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(54, 54, 240);
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 500px;
+            margin: 100px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .inputbox input {
+            width: 100%;
+            margin: 10px 0;
+            padding: 14px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid black;
+        
+
+
+        }
+
+        .btn1 {
+            font-size: 20px;
+            width: 100%;
+            padding: 12px 8px;
+            background-color: blue;
+            color: white;
+            border-radius:5px;
+            border: none;
+            font-weight: 500;
+
+        }
+
+        .link1 {
+            font-size: 18px;
+            text-align: center;
+
+        }
+        .box1{
+            font-size:20px ;
+        }
+        a{
+            text-decoration: none;
+        }
+        .checkbox{
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="container">
+        <div class="container1">
+            <h1>Registeration</h1>
+            <div class="inputbox">
+                <br>
+                <input type="text" id="name" class="name" placeholder="Enter your name" required>
+                <br><input type="email" id="email" class="email" placeholder="Enter your email" required>
+                <br><input type="password" id="pass" class="pass" placeholder="Create password" required>
+                <br><input type="password" id="pass1" class="pass1" placeholder="Confrim password" required>
+            </div>
+            
+            <br><input type="checkbox" class="checkbox"><label class="box1"> i accept all terms & condition</label>
+            <br>
+            <br>
+            <button class="btn1">Register Now</button>
+        </div>
+        <br>
+        <div class="link1">
+            <label class="linkc"> Already haave an account?</label><a href="#"> login now</a>
+        </div>
+    </form>
+</body>
+
+</html>
